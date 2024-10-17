@@ -5,8 +5,10 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import StoreContextProvider from './Context/StoreContext.jsx'
 
+const repoName = 'Food-Deli';
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename={`/${repoName}`}>
     <StoreContextProvider>
       <App />
     </StoreContextProvider>
