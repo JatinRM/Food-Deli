@@ -29,7 +29,8 @@
     font-size: 1vw;
 }
 
-.header-content button {
+.header-content a button {
+    cursor: pointer;
     border: none;
     color: #747474;
     font-weight: 500;
