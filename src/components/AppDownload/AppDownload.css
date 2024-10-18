@@ -23,3 +23,20 @@
 .app-download-platforms img:hover {
     transform: scale(1.05);
 }
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    z-index: 1000;
+    background-color: tomato;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+}

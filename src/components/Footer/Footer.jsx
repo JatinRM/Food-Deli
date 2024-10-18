@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, porro facere ipsam error nemo rerum accusantium commodi totam incidunt delectus, accusamus assumenda. Qui et dignissimos accusamus error illo autem asperiores.</p>
+            <p>Hello, my name is Jatin, and I built this food delivery website from scratch! The site allows users to explore menus, add items to the cart, enter their address, and securely complete payments using Stripe. It also has an admin panel to manage orders efficiently. This project showcases my skills in full-stack development and was a great learning experience! Thank you for visiting, and I hope you enjoy exploring it..</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
